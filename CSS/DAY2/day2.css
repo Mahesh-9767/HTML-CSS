@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* body {
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: aqua;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+}
+
+* {
+    background-color: aquamarine;
+}
+
+.c div {
+    background-color: black;
+}
+
+#i{
+    background-color: red;
+} */
+
+
+
+/* ***************************General sibling.. ************************** */
+
+/* section>p{
+    background: red;
+}
+
+
+div main {
+    color: aqua;
+} */
+
+
+/* main>p{
+    background:red;
+} */
+
+
+main p{
+    background: blue;
+}
+

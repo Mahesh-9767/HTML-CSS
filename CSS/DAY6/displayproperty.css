@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* 
+body {
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+
+.displyblock div {
+    background:rebeccapurple;
+    display: inline;
+    height: 500px;
+    width: 500px;
+    /* height and width will not be applied bacause now its an inlne element */
+}
+
+.displyinline span {
+    display: block;
+    color: red;
+    background: #000;
+}
+
+
+.whatflexwilldo main {
+    display: flex;
+    background: red;
+}
+
+.whatflexwilldo section {
+    background: greenyellow;
+}
+
+.whatflexwilldo p{
+    background: burlywood;
+}
+
+
+.whatflexwilldo div,section {
+    height: 300px;
+}
+
+
+.whatflexwilldo div{
+    background:blue;
+    border: 2px solid;
+}
+
+.justifycontentcenter main {
+    display: flex;
+    background: #ee7676;
+    justify-content: center;
+}
+
+
+.justifycontentleftorstart main {
+    display: flex;
+    background: #ee7676;
+    justify-content: start;
+    /* justify-content: left; */
+}
+
+
+.justifycontentEndorright main {
+    display: flex;
+    justify-content: right;
+    /* justify-content: end; */
+}
+
+.justifycontentEndorright div {
+    background: red;
+}
+
+
+.justifycontentspacebetween main {
+    display: flex;
+    background: burlywood;
+    justify-content: space-between;
+}
+
+
+.justifycontentspacebetween div {
+    background: red;
+}
+
+
+
+.justifycontentspacearound main {
+    display: flex;
+    background: burlywood;
+    justify-content: space-around;
+}
+
+
+.justifycontentspacearound div {
+    background: red;
+}
+
+
+.justifycontentspaceevenly main {
+    display: flex;
+    background: burlywood;
+    justify-content: space-evenly;
+}
+
+
+.justifycontentspaceevenly div {
+    background: red;
+}
+

@@ -1,0 +1,106 @@
+
+.Task1 .temple:hover p {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.language:not(.native) {
+    background-color: blue;
+}
+
+
+.Task3 .dance p:nth-of-type(2) {
+    font-style: italic;
+}
+
+
+.Task4 #delhi p{
+    font-style: italic;
+    text-decoration: underline;
+    color: red;
+}
+
+
+.Task5 input[placeholder*="city"]:focus {
+    border: 2px solid green;
+}
+
+.Task6 p:nth-of-type(2) {
+    color: red;
+}
+.Task7 h3~span {
+    color: red;
+}
+
+.Task8 .markets ul li:first-child {
+    color: red;
+}
+
+
+
+
+
+.Task10 .flags p[lang|="en"] {
+    color: green;
+}
+
+.Task11 p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+
+.Task12 p.popular.food {
+    font-weight: bold;
+}
+
+.Task13 .sweets ul:hover li:last-child {
+    background-color: gold;
+}
+
+.Task14 .event::before {
+    content: "🇮🇳 ";
+}
+
+
+.Task15 a[href^="https://"]::before {
+    content: "🌐 ";
+}
+
+.Task15 a[href^="mailto:"]::before {
+    content: "✉️ ";
+}
+
+
+.Task16 section p:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
+
+.Task17 .languages li:not(:nth-child(3)) {
+    font-style: italic;
+}
+
+.Task18 tr td:last-child {
+    border: 2px solid black;
+}
+
+
+.Task19 .highlight ::selection {
+    background-color: navy;
+    color: white;
+}
+
+.Task20 .quiz:hover li:nth-child(3) {
+    text-decoration: underline;
+}
+
+.Task21 input:checked::after {
+    content: " ✅";
+    color: green;
+}
+
+.Task22 .popular:nth-of-type(2) {
+    background-color: lightgreen;
+}
+

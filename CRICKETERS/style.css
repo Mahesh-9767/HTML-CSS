@@ -1,0 +1,29 @@
+
+body h1 {
+    color: rgb(0, 183, 255);
+}
+
+body a {
+    color: red;
+}
+
+
+div h1 {
+    text-align: center;
+    color: darkmagenta;
+}
+
+div div {
+    text-align: center;
+    
+}
+
+div div pre {
+    font-size: 18px;
+}
+
+div div span {
+    font-size: 20px;
+}
+
+

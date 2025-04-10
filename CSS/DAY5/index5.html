@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./day5.css">
+    <title>Document</title>
+</head>
+
+<!-- Attribute selector
+ 1 ) [attribute]
+ 2) [attribute= complete vlaue]
+3 ) tagname[attributename]
+4) [attrname^ = char]  ->starts with
+5) [attrname$ = char]  ->endss with
+6) [attrname| = char]  ->separted by hifen
+7) [attrname~ = char]  ->separted by space
+8) [attrname* = char]  ->inclued or not -->
+<body>
+    <legend>Attribute selector</legend>
+    <fieldset class="simpleattribut">
+        <legend>simpleattribut selector..<legend>
+        <p title="Karishma randhir kapoor">Karishma</p>
+        <p class="Karina randhir kapoor">Karina</p>
+    </fieldset>
+    <br><br><br><br><br>
+
+
+    <fieldset class="simpleattribut">
+        <legend>simpleattribut selector..<legend>
+        <p class="Karishma randhir kapoor">Karishma</p>
+        <p class="Karina randhir kapoor">Karina</p>
+    </fieldset>
+
+
+    <fieldset class="simpleattribut">
+        <legend>simpleattribut selector..<legend>
+        <p class="Karishma">Karishma</p>
+        <p class="Karina">Karina</p>
+        <div class="Karina">Karina</div>
+    </fieldset>
+
+
+    <fieldset class="simpleattributstartswith">
+        <legend>satrts with simple attribute selector..<legend>
+        <p class="Karishma">Karishma</p>
+        <div title="Ka">Karina</div>
+        <div title="Karina">Karina</div>
+    </fieldset>
+
+
+    <fieldset class="simpleattributendsswith">
+        <legend>satrts with simple attribute selector..<legend>
+        <p class="Karishma">Karishma</p>
+        <div title="Kaa">Karina</div>
+        <div title="Karina">Karina</div>
+    </fieldset>
+
+
+
+
+    <fieldset class="simpleattributesepreatedbthifen">
+        <legend>simple attribute sepreated by hifen simple attribute selector..<legend>
+        <p title="Karishma kapoor">Karishma</p>
+        <p title="Karishma-kapoor">Karina</p>
+
+    </fieldset>
+
+
+    <fieldset class="simpleattributesepreatedbspace">
+        <legend>simple attribute sepreated by space simple attribute selector..<legend>
+        <p title="Karishma kapoor">Karishma</p>
+        <p title="Karishma-kapoor">Karina</p>
+    </fieldset>
+
+
+
+    <fieldset class="simpleattributeincludeornot">
+        <legend>simple attribute include or not<legend>
+        <p title="Karina kapoor">Karishma</p>
+        <p title="Karishma-kapoor">Karina</p>
+    </fieldset>
+
+
+</body>
+</body>
+</html>

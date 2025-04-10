@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: aqua; */
+}
+
+
+
+/* p::first-line {
+    background-color: aquamarine;
+    color: rgb(55, 0, 255);
+
+}
+
+p::first-letter {
+    color: red;
+    font-size: 100px;
+
+} */
+
+
+
+/* p::before {
+
+    content: "ABCD";
+} */
+
+
+/* p::after {
+
+    content: "1234567";
+    font-size: 50px;
+    animation: point 0.5s infinite;
+}  */
+
+
+
+/* p::selection{
+    color: hwb(0 4% 2%);
+    background: yellow;
+} */
+
+
+
+
+/* .apple::marker {
+    content: "🍎";
+}
+
+
+.bat::marker {
+    content: "🏏";
+}
+
+
+.cat::marker {
+    content: "😺";
+}
+
+.dog::marker {
+    content: "🐶";
+} */
+
+
+/* pseduedo class selector :----------> */
+
+/* 
+
+input {
+    border: none;
+    background: rgb(139, 235, 176);
+    padding: 5px;
+    color: grey;
+}
+
+input:hover {
+    background-color: rgb(230, 221, 130);
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    color: red;
+} */
+
+
+a {
+    color: black;
+}
+
+a:active {
+    color: aqua;
+}
+
+
+a:visited {
+    color: chartreuse;
+}
+
+
+
+button:disabled {
+    background: gray;
+    color: white;
+}
+
+
+.readonly input:read-only {
+    color: aquamarine;
+    background-color: rgb(98, 0, 255);
+}

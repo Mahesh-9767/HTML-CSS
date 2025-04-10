@@ -1,0 +1,50 @@
+fieldset {
+    padding: 20px;
+}
+
+.simpleattribut [title] {
+    background: red;
+}
+
+
+.simpleattribut [class="Karina randhir kapoor"] {
+    color: aqua;
+}
+
+
+.simpleattribut div[class="Karina"] {
+    color: rgb(255, 213, 0);
+}
+
+
+.simpleattributstartswith [title^="Kar"] {
+    color: rgb(26, 248, 100);
+}
+
+
+.simpleattributendsswith [title$="aa"] {
+    color: rgb(56, 26, 248);
+}
+
+
+.simpleattributendsswith [title$="na"] {
+    color: rgb(229, 242, 54);
+}
+
+
+.simpleattributesepreatedbthifen [title|="Karishma"] {
+    background: rebeccapurple;
+}
+
+
+.simpleattributesepreatedbspace p[title~="Karishma"] {
+    background-color: aquamarine;
+}
+
+
+
+.simpleattributeincludeornot [title*="ina"] {
+    background: red;
+}
+
+

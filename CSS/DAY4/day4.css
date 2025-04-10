@@ -1,0 +1,102 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: aqua; }*/
+
+
+
+.focus input:focus {
+    background: gray;
+    color: aqua;
+    outline: none;
+    outline: none;
+    padding: 5px;
+   }
+
+.firstchild input:first-child {
+    background: rgb(42, 58, 235);
+   }
+
+.lastchild input:last-child {
+    background: rgb(58, 230, 115);
+}
+
+.firstoftype p:first-of-type {
+    color: aquamarine;
+}
+
+
+
+
+.lastoftype p:last-of-type {
+    color: red;
+    
+}
+
+
+
+.nthchild p:nth-child(1) {
+    color: greenyellow;
+}
+
+
+.nthlastchild p:nth-last-child(2) {
+    color: aqua;
+}
+
+
+.nthoftype p:nth-of-type(2) {
+    background: orange;
+}
+
+
+.nthoflasttype p:nth-last-of-type(2) {
+    background: rebeccapurple;
+}
+
+
+
+
+.nthchildx td{
+    padding: 5px;
+}
+
+
+.nthchildx tr:nth-child(odd){
+    background: lightblue;
+}
+
+
+.nthchildx tr:nth-child(even){
+    background: rgb(40, 216, 67);
+}
+
+
+
+
+.nthchildx td:nth-child(odd){
+    background: lightblue;
+}
+
+
+
+
+.nthchildx td:nth-child(even){
+    background: rgb(40, 216, 67);
+}
+
+
+
+
+.notpesudoselector p:not(para1) {
+    color: red;
+}
