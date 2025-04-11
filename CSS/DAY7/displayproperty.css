@@ -129,8 +129,59 @@ body {
     background: rgb(33, 239, 10);
 }
 
-.Carouseleffect div {
-    
+
+.Carouseleffect main {
+    width: 95vw;
+    height: 70vh;
+    border: 2px solid red;
+    display: flex;
+    overflow: auto;
 }
 
+
+.Carouseleffect div {
+    min-width: 45%;
+    height: 70%;
+    background: plum;
+    margin: 2.5%;
+}
+
+
+.flextwrap main {
+    width: 95vw;
+    /* height: 80vh; */
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: flex; */
+    /* overflow: auto; */
+}
+
+.flextwrap div {
+    min-width: 15%;
+    height: 40vh;
+    background: plum;
+    border: blue solid;
+    margin: 2.5%;
+}
+
+.gapflexwrap main {
+    width: 95vw;
+    /* height: 80vh; */
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    /* display: flex; */
+    /* overflow: auto; */
+}
+
+.gapflexwrap div {
+    min-width: 15%;
+    height: 40vh;
+    background: plum;
+    border: blue solid;
+}
 
